@@ -24,3 +24,10 @@
     justify-content: flex-start;
     align-items: flex-end;
 }
+.header-text{
+    font-size: 25px;
+    font-family: bold;
+    font-weight: 600;
+    margin: 5px;
+    cursor: pointer;
+}
