@@ -7,11 +7,13 @@ function App() {
 
   return (
     <>
-      <div>
-        <header className='App-header'>
+      <div className="main-header">
+        <header className='App-header' />
+          <div className='childern-content'> 
           <RoutingPilot />
-        </header>
-      </div>
+          </div>
+          </div>
+      
     </>
   )
 }
