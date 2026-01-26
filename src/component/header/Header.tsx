@@ -1,6 +1,8 @@
 import React from 'react'
 import { URLPaths } from '../../routing/urlPaths'
 import { useNavigate } from 'react-router-dom'
+import Navbar from '../navbar/Navbar'
+import './Header.css'
 
 const Header = () => {
     const {HOME_PATH} = URLPaths
@@ -10,7 +12,8 @@ const Header = () => {
     }
   return (
     <div className='header-container-main'>
-        <div><span onClick={redirectToHome}>Demo Book Corner</span></div>
+        <div className='left-side'><span onClick={redirectToHome}>Demo Book Corner</span></div>
+        <div className='right-side'> <Navbar /></div>
     </div>
   )
 }

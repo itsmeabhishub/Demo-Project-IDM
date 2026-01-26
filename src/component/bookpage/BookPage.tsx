@@ -1,8 +1,8 @@
 import React from 'react'
-
+import'./BookPage.css'
 const BookPage = () => {
   return (
-    <div>BookPage</div>
+    <div className='navbar-min-container'>BookPage</div>
   )
 }
 

@@ -14,7 +14,7 @@ const Navbar = () => {
         navigate(BOOK_PAGE)
     }
   return (
-    <div>
+    <div className='navbar-container'>
         <button className='home-path' onClick={homePage}>Home</button>
         <button className='book-path' onClick={redirectBookPage}>Book Page</button>
     </div>

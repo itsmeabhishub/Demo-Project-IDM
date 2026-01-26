@@ -20,7 +20,7 @@ export default function RoutingPilot() {
         <Router>
             <Header />
             <div className="main-container">
-                <Navbar />
+                {/* <Navbar /> */}
                 <div className="route-container">
                     <Routes>
                         <Route 
