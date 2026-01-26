@@ -1,6 +1,7 @@
 import React from 'react'
 import { URLPaths } from '../../routing/urlPaths'
 import { useNavigate } from 'react-router-dom'
+import './Navbar.css'
 
 const Navbar = () => {
     const {HOME_PATH, BOOK_PAGE} = URLPaths
@@ -15,8 +16,8 @@ const Navbar = () => {
     }
   return (
     <div className='navbar-container'>
-        <button className='home-path' onClick={homePage}>Home</button>
-        <button className='book-path' onClick={redirectBookPage}>Book Page</button>
+        <button className='navbar-path' onClick={homePage}>Home</button>
+        <button className='navbar-path' onClick={redirectBookPage}>Book Page</button>
     </div>
   )
 }
