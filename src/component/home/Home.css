@@ -1,5 +1,7 @@
 .home-page-container{
-    padding-top: 60px;
+    /* padding-top: 60px; */
+    padding: 60px 15px 60px 15px;
     display: flex;
+    flex-direction: columnß;
     align-items: center;
 }
