@@ -5,3 +5,32 @@
     flex-direction: columnß;
     align-items: center;
 }
+.book-conntainer{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    gap: 25px;
+}
+             
+.book-image{
+    padding: 10px;
+    margin-right: 5px;
+    flex: 1
+}
+
+.image-sft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 200px;
+    width: auto;
+}
+
+.text{
+    font-size: 15px;
+    font-style: italic;
+    font-family: cursive;
+    font-weight: 700;
+}
